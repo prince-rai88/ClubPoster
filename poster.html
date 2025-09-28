@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMINAL // CODING NINJAS 10X</title>
+    
+    <link rel="stylesheet" href="poster.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-grid"></div>
+
+    <main class="terminal-interface">
+        <header class="terminal-header">
+            <h1 class="glitch" data-text="CODING NINJAS 10X">CODING NINJAS 10X</h1>
+            <p class="sub-header">EVENT PROTOCOL INITIATED :: BEYOND THE BROWSER</p>
+        </header>
+
+        <section class="info-grid">
+            <div class="info-card">
+                <h3>OBJECTIVE:</h3>
+                <p>Crafting Digital Realities</p>
+            </div>
+            <div class="info-card">
+                <h3>DATE & TIME:</h3>
+                <p>2025.10.26 // 18:00 HRS</p>
+            </div>
+            <div class="info-card">
+                <h3>LOCATION:</h3>
+                <p>Ganeshan Auditorium // GRID 888</p>
+            </div>
+            <div class="info-card accent">
+                <h3>ACTION:</h3>
+                <a href="#" class="terminal-button">INITIATE RSVP</a>
+            </div>
+
+            <!-- NEW GRID CARDS -->
+            <div class="info-card accent">
+                <h3>ACCESS QR:</h3>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://codingninjas.com" alt="RSVP QR" class="qr-code">
+
+            </div>
+            <div class="info-card accent">
+                <h3>TIMER:</h3>
+                <p id="countdown">-- : -- : --</p>
+            </div>
+
+            <!-- Neon line -->
+            <div class="neon-line"></div>
+        </section>
+
+        <footer class="terminal-footer">
+            <img src="LOGO.jpg" alt="Club Logo" class="club-logo">
+            <p>// STATUS: AWAITING PARTICIPATION //</p>
+        </footer>
+
+        <div class="creator-tag">Created by Prince Rai</div>
+    </main>
+
+    <!-- Countdown Script -->
+    <script>
+        const countdown = document.getElementById('countdown');
+        const eventTime = new Date("2025-10-26T18:00:00").getTime();
+        setInterval(() => {
+            const now = new Date().getTime();
+            const distance = eventTime - now;
+            const hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+            const minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
+            const seconds = Math.floor((distance % (1000*60)) / 1000);
+            countdown.textContent = `${hours.toString().padStart(2,'0')} : ${minutes.toString().padStart(2,'0')} : ${seconds.toString().padStart(2,'0')}`;
+        }, 1000);
+    </script>
+
+</body>
+</html>
