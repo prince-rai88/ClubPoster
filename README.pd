@@ -1,29 +1,51 @@
-# 🚀 Club Poster – Coding Ninjas 10X 🚀
+# CODING NINJAS 10X - Cyberpunk Event Poster
 
-An **interactive cyberpunk-themed poster** for the **Coding Ninjas 10X** event, built entirely with **HTML & CSS**.  
-The poster features a **glitchy neon header, live countdown timer, and an RSVP QR code**, designed to resemble a futuristic terminal interface.
+A dynamic and visually striking webpage for a club event, designed as a fully interactive, cyberpunk terminal interface.
 
----
-
-## 🌐 Live Demo
-
-You can view the poster live using GitHub Pages:  
-[https://prince-rai88.github.io/ClubPoster/poster3.html](https://prince-rai88.github.io/ClubPoster/poster3.html)
+**[Live Demo Link](https://prince-rai88.github.io/ClubPoster/)** 🚀
 
 ---
 
-## ✨ Features
+![Cyberpunk Event Poster Screenshot](https://i.imgur.com/e2d3d9B.png)
 
-- **Cyberpunk terminal design** with neon glow effects.  
-- **Glitch animation** for the main event title.  
-- **Interactive RSVP QR code**.  
-- **Live countdown timer** to the event.  
-- Fully **responsive design** for desktop and mobile.  
-- Smooth **hover animations** for buttons, cards, and QR code.  
-- **Easy to customize**: colors, fonts, event details, and QR code.  
-- Built entirely with **pure HTML & CSS**, no JavaScript frameworks required.
+## About The Project
+
+This project is a unique, "out-of-the-box" take on a digital event poster. It was built to showcase modern CSS and JavaScript skills by creating a memorable and engaging user experience. The interface is designed to feel like a mission briefing from a sci-fi movie, complete with animated backgrounds, glitch effects, and a live countdown.
 
 ---
 
-## 🗂 Project Structure
+## Key Features
 
+* **Interactive Cyberpunk UI:** A dark, glowing interface inspired by terminal screens.
+* **Animated Background Grid:** A subtly moving grid that adds depth and atmosphere.
+* **CSS Glitch Effect:** A complex, multi-layered glitch animation for the main title.
+* **Live Countdown Timer:** A JavaScript-powered timer that counts down to the event date in real-time.
+* **Responsive Design:** The layout is fully responsive and works well on both desktop and mobile screens.
+* **Micro-interactions:** Interactive elements like hover effects on cards and a typing animation for text add to the dynamic feel.
+
+---
+
+## Built With
+
+* **HTML5**
+* **CSS3**
+    * Custom Properties (Variables)
+    * Flexbox & Grid
+    * Advanced Animations & Keyframes
+* **JavaScript (ES6)**
+
+---
+
+## How To Use
+
+To run this project on your local machine:
+
+1.  Clone the repository:
+    ```sh
+    git clone [https://github.com/prince-rai88/ClubPoster.git](https://github.com/prince-rai88/ClubPoster.git)
+    ```
+2.  Navigate into the project directory:
+    ```sh
+    cd ClubPoster
+    ```
+3.  Open the `poster.html` file in your web browser.
