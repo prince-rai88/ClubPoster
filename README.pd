@@ -1,0 +1,29 @@
+# 🚀 Club Poster – Coding Ninjas 10X 🚀
+
+An **interactive cyberpunk-themed poster** for the **Coding Ninjas 10X** event, built entirely with **HTML & CSS**.  
+The poster features a **glitchy neon header, live countdown timer, and an RSVP QR code**, designed to resemble a futuristic terminal interface.
+
+---
+
+## 🌐 Live Demo
+
+You can view the poster live using GitHub Pages:  
+[https://prince-rai88.github.io/ClubPoster/poster3.html](https://prince-rai88.github.io/ClubPoster/poster3.html)
+
+---
+
+## ✨ Features
+
+- **Cyberpunk terminal design** with neon glow effects.  
+- **Glitch animation** for the main event title.  
+- **Interactive RSVP QR code**.  
+- **Live countdown timer** to the event.  
+- Fully **responsive design** for desktop and mobile.  
+- Smooth **hover animations** for buttons, cards, and QR code.  
+- **Easy to customize**: colors, fonts, event details, and QR code.  
+- Built entirely with **pure HTML & CSS**, no JavaScript frameworks required.
+
+---
+
+## 🗂 Project Structure
+
