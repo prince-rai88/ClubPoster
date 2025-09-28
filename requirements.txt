@@ -1,0 +1,6 @@
+No external dependencies.
+Works on any modern browser (Chrome, Firefox, Edge, Safari).
+
+Google Fonts:
+- Chakra Petch
+- Share Tech Mono
